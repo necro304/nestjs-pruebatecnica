@@ -5,8 +5,9 @@ import {
   Post,
   UseGuards,
   Request,
-  Put, Delete
-} from "@nestjs/common";
+  Put,
+  Delete,
+} from '@nestjs/common';
 import { ProductService } from './product.service';
 import { CreateProductDto } from './dto/create-product.dto';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
